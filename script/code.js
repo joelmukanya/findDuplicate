@@ -69,5 +69,5 @@ let romanToInt = function(s) {
     }
     return myArr.reduce( (c, n)=> c+n) ;
 }
-
-console.log(romanToInt('iv'));
+// It fail on this: "MCMXCIV"
+console.log(romanToInt("MCMXCIV"));
